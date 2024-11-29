@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparepart Motor Shop</title>
+    <link rel="stylesheet" href="ar.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="logo-icon">AR</span>
+                <span class="logo-text">ARMotoBoost</span>
+            </div>
+            <div class="nav-links">
+                <a href="ar.html">Home</a>
+                <a href="layanan.html">Layanan</a>
+                <a href="barang.html">Barang</a>
+                <a href="index.html">Tentang Kami</a>
+                <a href="hubungi.html">Hubungi Kami</a>
+            </div>
+            <div class="nav-buttons">
+                <a href="" class="btn-account">My Account</a>
+                <a href="" class="btn-primary">Masuk/Daftar</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="filter-sidebar">
+            <div class="filter-section">
+                <h3>Kategori</h3>
+                <div class="category-list">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="category" value="piston">
+                        Piston Kit
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="category" value="knalpot">
+                        Knalpot
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="category" value="cdi">
+                        CDI/ECU
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="category" value="karburator">
+                        Karburator
+                    </label>
+                </div>
+            </div>
+
+        
+    
+            <div class="filter-section">
+                <h3>Ketersediaan</h3>
+                <div class="category-list">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="stock" value="instock">
+                        Tersedia
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="stock" value="limited">
+                        Stok Terbatas
+                    </label>
+                </div>
+            </div>
+
+            <button class="apply-filter">Terapkan Filter</button>
+        </aside>
+
+        
+        <main class="main-content">
+            <div class="search-bar">
+                <input type="text" placeholder="Cari sparepart..." class="search-input">
+            </div>
+
+            <div class="products-grid">
+                
+                <article class="product-card" onclick="window.location.href='piston.html'">
+                    <div class="product-badge in-stock">Tersedia</div>
+                    <div class="product-image">
+                        <img src="ararar.jpeg" alt="Piston Kit">
+                    </div>
+                    <div class="product-content">
+                        <h3>Blok Kit BRT 53mm</h3>
+                        <p>High compression piston kit untuk performa maksimal</p>
+                        <div class="product-price">Rp 650.000</div>
+                        <button class="view-details">Lihat Detail</button>
+                    </div>
+                </article>
+
+                
+                <article class="product-card">
+                    <div class="product-badge limited">Stok Terbatas</div>
+                    <div class="product-image">
+                        <img src="knalpot.jpeg" alt="Knalpot Racing">
+                    </div>
+                    <div class="product-content">
+                        <h3>Knalpot Racing ARM</h3>
+                        <p>Knalpot racing full system dengan db killer</p>
+                        <div class="product-price">Rp 2.300.000</div>
+                        <button class="view-details">Lihat Detail</button>
+                    </div>
+                </article>
+
+                
+                <article class="product-card">
+                    <div class="product-badge out-of-stock">Habis</div>
+                    <div class="product-image">
+                        <img src="Rextor.jpeg" alt="CDI Racing">
+                    </div>
+                    <div class="product-content">
+                        <h3>CDI Rextor Pro Drag 2</h3>
+                        <p>CDI Racing programmable dengan ajustable mapping</p>
+                        <div class="product-price">Rp 2.750.000</div>
+                        <button class="view-details" disabled>Lihat Detail</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-badge in-stock">Tersedia</div>
+                    <div class="product-image">
+                        <img src="Noken.png" alt="Piston Kit">
+                    </div>
+                    <div class="product-content">
+                        <h3>Noken As Rx7 (Vario)</h3>
+                        <p>High lift cam untuk performa maksimal</p>
+                        <div class="product-price">Rp 350.000</div>
+                        <button class="view-details">Lihat Detail</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-badge out-of-stock">Habis</div>
+                    <div class="product-image">
+                        <img src="roller.jpeg" alt="CDI Racing">
+                    </div>
+                    <div class="product-content">
+                        <h3>Roller TDR</h3>
+                        <p>Roller CVT dengan bahan kuat dan tahan lama</p>
+                        <div class="product-price">Rp 87.000</div>
+                        <button class="view-details" disabled>Lihat Detail</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-badge in-stock">Tersedia</div>
+                    <div class="product-image">
+                        <img src="karbu.jpeg" alt="Piston Kit">
+                    </div>
+                    <div class="product-content">
+                        <h3>Karburator PWK 32 KRJ</h3>
+                        <p>Big Karbu untuk menaikan supply bahan bakar pada motor.</p>
+                        <div class="product-price">Rp 400.000</div>
+                        <button class="view-details">Lihat Detail</button>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

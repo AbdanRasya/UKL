@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Layanan Bengkel Motor</title>
+    <link rel="stylesheet" href="ar.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="logo-icon">AR</span>
+                <span class="logo-text">ARMotoBoost</span>
+            </div>
+            <div class="nav-links">
+                <a href="ar.html">Home</a>
+                <a href="layanan.html">Layanan</a>
+                <a href="barang.html">Barang</a>
+                <a href="index.html">Tentang Kami</a>
+                <a href="hubungi.html">Hubungi Kami</a>
+            </div>
+            <div class="nav-buttons">
+                <a href="" class="btn-account">My Account</a>
+                <a href="" class="btn-primary">Masuk/Daftar</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="filter-section">
+            <h1>Layanan Bengkel</h1>
+            <div class="search-filters">
+                <div class="filter-group">
+                    <select id="categoryFilter" class="filter-input">
+                        <option value="">Semua Kategori</option>
+                        <option value="bore-up">Bore Up</option>
+                        <option value="modifikasi">Modifikasi Mesin</option>
+                        <option value="perawatan">Perawatan Umum</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <input type="text" id="searchInput" class="filter-input" placeholder="Cari layanan...">
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="services-grid">
+          
+            <article class="service-card" onclick="window.location.href='Layanan2.html'">
+                <div class="service-image">
+                    <img src="ararar.jpeg" alt="Bore Up">
+                </div>
+                <div class="service-content">
+                    <h3>Bore Up</h3>
+                    <p>Upgrade kapasitas mesin hingga Mbelos dengan performa maksimal dan parts berkualitas.</p>
+                    <div class="service-footer">
+                        <span class="harga">Start from Rp 500.000</span>
+                        <button class="detail-btn">Lihat Detail</button>
+                    </div>
+                </div>
+            </article>
+
+            
+            <article class="service-card">
+                <div class="service-image">
+                    <img src="tun ap.jpeg" alt="Tune Up">
+                </div>
+                <div class="service-content">
+                    <h3>Tune Up Mesin</h3>
+                    <p>Perawatan menyeluruh untuk performa optimal mesin motor Anda dan upgrade parts racing namun tidak merubah ukuran cilinder dan piston.</p>
+                    <div class="service-footer">
+                        <span class="harga">Start from Rp 250.000</span>
+                        <button class="detail-btn">Lihat Detail</button>
+                    </div>
+                </div>
+            </article>
+
+            
+            <article class="service-card">
+                <div class="service-image">
+                    <img src="Racing.jpeg" alt="Modifikasi">
+                </div>
+                <div class="service-content">
+                    <h3>Modifikasi Balap</h3>
+                    <p>Upgrade performa mesin untuk kebutuhan racing dengan parts premium.</p>
+                    <div class="service-footer">
+                        <span class="harga">Start from Rp 5.000.000</span>
+                        <button class="detail-btn">Lihat Detail</button>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+</body>
+</html>
